@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "3FPQH7AMR4.dev.keiji.sample-applinks",
+                "paths": [ "*" ]
+            }
+        ]
+    }
+}
