@@ -1,0 +1,11 @@
+[
+    {
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "dev.keiji.sample_applinks",
+            "sha256_cert_fingerprints":
+            ["6C:C4:18:10:ED:3C:FA:10:7A:40:2E:F5:5B:E7:EF:30:E4:70:36:0F:16:72:56:E8:44:C5:E5:12:CB:86:B9:4B"]
+        }
+    }
+]
