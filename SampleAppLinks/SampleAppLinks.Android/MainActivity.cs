@@ -18,6 +18,18 @@ namespace SampleAppLinks.Droid
         DataPathPattern = "/something/.*"
         )
     ]
+    [IntentFilter(new[] { Android.Content.Intent.ActionView },
+        AutoVerify = true,
+        Categories = new[]
+        {
+            Android.Content.Intent.CategoryDefault,
+            Android.Content.Intent.CategoryBrowsable
+        },
+        DataScheme = "https",
+        DataHost = "blog.keiji.dev",
+        DataPathPattern = "/.*"
+        )
+    ]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
